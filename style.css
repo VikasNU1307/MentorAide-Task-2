@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.parent-div{
+    
+    margin-left: 30%;
+    margin-top: 1%;
+    border: solid 2px black;
+    height: 575px;
+    width: 460px;
+
+}
+.child-div{
+    margin: 10px 20px 10px 22px;
+    height: 96%;
+    width: 90%;
+    border:solid 1px black;
+}
+.Title{
+    margin: 6px;
+    text-align: center;
+    border: solid 1.5px black;
+    height: 30px;
+    font-weight: bold;
+    
+}
+.Content{
+    display: flex;
+    gap: 10px;
+}
+.border-box{
+    margin: 1px;
+    height: 40px;
+    width: 44.5%;
+    border: solid 1.5px black;
+   padding: 8px 10px 10px 10px;
+}
+.lable{
+    margin: 1px 0px 0px 6px ;
+    border: solid 1.5px black;
+    width: 50%;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Address{
+    margin: 1px 0px 0px 6px ;
+    border: solid 1.5px black;
+    width: 50%;
+    height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Address-box{
+    margin: 1px;
+    height: 80px;
+    width: 44.5%;
+    border: solid 1.5px black;
+   padding: 8px 10px 10px 10px;
+}
+.Address-box input{
+    height: 60px;
+}
+
